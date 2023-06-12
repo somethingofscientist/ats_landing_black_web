@@ -14,7 +14,7 @@
 
 .hero_section_content {
     font-family: sans-serif !important;
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     font-family: 'Inter';
@@ -45,7 +45,7 @@
 }
 
 .get_started {
-    background-color: #F4D313;
+    background-color: #6F1749;
     padding: 10px 40px;
     border-radius: 28px;
     font-weight: 600;

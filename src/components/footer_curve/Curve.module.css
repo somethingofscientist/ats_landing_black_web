@@ -9,7 +9,7 @@
 }
 
 .curve {
-  height: 50vh;
+  height: 20vh;
   position: relative;
   z-index: 2;
   /* background: linear-gradient(#2186F2, #4E36E2, #4731d6); */
