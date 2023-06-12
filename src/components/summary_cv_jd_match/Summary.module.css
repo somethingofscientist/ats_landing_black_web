@@ -1,0 +1,158 @@
+.main_container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 100%;
+    /* border-radius: 400px; */
+    flex-wrap: wrap;
+    /* margin-top: 100px; */
+    align-items: center;
+    /* padding: 0 20%; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.left_container,
+.right_container {
+    width: 50%;
+    padding: 50px 0;
+}
+
+.left_container {
+    /* width: 20%; */
+    justify-content: center;
+    /* background-color: red; */
+    display: flex;
+    /* flex: wrap; */
+    /* position: relative; */
+}
+
+.right_container {
+    padding-left: 50px;
+}
+
+/* .left_container .phone_down {
+    margin-top: 100px;
+}
+
+.left_container .phone_up {
+    margin-bottom: 100px;
+} */
+
+.heading {
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.subheading {
+    /* font-weight: 600; */
+    /* font-size: 32px; */
+    padding: 10px 0;
+}
+
+.para {
+    /* font-weight: 600; */
+    /* font-size: 32px; */
+    padding: 20px 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.demo {
+    font-weight: 600;
+    color: #2186F2;
+}
+
+.ipad {
+    width: 100%;
+    position: relative;
+    padding: 12px 20px;
+    /* left: 10%; */
+    border-radius: 15px;
+    /* padding: 10px; */
+    /* background-color: rgb(239, 239, 239); */
+    background: linear-gradient(180deg, rgba(49, 104, 236, 0.19) 0%,
+            rgba(49, 104, 236, 0.06) 100%);
+    /* background-color: lime; */
+    
+    /* new change AG */
+    background: linear-gradient(#6F1749, #CB5E9C);
+}
+
+.ipad img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desktop1 {
+    top: 13%;
+    /* left: 8%; */
+    position: absolute;
+}
+
+.desktop1 img {
+    width: 100%;
+}
+
+
+/* media queries */
+
+@media (max-width: 1093px) {
+
+    .left_container,
+    .right_container {
+        width: 100%;
+        padding: 50px 100px;
+        /* background-color: red; */
+        justify-content: space-evenly;
+    }
+
+    .left_container {
+        display: flex;
+        flex: wrap;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    /* 
+    .left_container .phone_down {
+        margin: 50px 0;
+    }
+
+    .left_container .phone_up img,
+    .left_container .phone_down img {
+        width: 70%;
+    } */
+}
+
+@media (max-width: 804px) {
+
+    .left_container,
+    .right_container {
+        max-width: 100%;
+        padding: 50px 30px;
+        justify-content: space-evenly;
+    }
+
+    .left_container {
+        padding: 0 40px;
+    }
+
+    .desktop1 {
+        top: 13%;
+        /* left: 8%; */
+        position: absolute;
+    }
+}
+
+@media (max-width: 536px) {
+
+    .left_container {
+        padding: 0 20px;
+    }
+}

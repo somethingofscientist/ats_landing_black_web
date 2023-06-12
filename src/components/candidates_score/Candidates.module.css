@@ -1,0 +1,168 @@
+.main_container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    background: linear-gradient(180deg, rgba(49, 104, 236, 0.19) 0%,
+            rgba(49, 104, 236, 0.06) 100%);
+                /* new change AG */
+    background: linear-gradient(#6F1749, #CB5E9C,#CB5E9C);
+}
+
+.left_container {
+    /* background-color: red; */
+    width: 50%;
+    padding-left: 10%;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 32px;
+    padding: 10px 0;
+    /* min-width: max-content; */
+}
+
+.subheading {
+    /* font-weight: 600; */
+    /* font-size: 32px; */
+    padding: 10px 0;
+}
+
+.para {
+    /* font-weight: 600; */
+    /* font-size: 32px; */
+    padding: 20px 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.demo {
+    font-weight: 600;
+    color: #2186F2;
+}
+
+.right_container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0px;
+    /* border: 1px solid grey; */
+    /* width: 5 0%; */
+    padding-left: 40px;
+    /* background-color: red; */
+}
+
+.ipad {
+    width: 100%;
+    position: relative;
+    /* padding: 40px 0; */
+    left: 10%;
+    border-radius: 15px;
+    /* color: white; */
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.screen {
+    top: 13%;
+    left: 8%;
+    position: absolute;
+}
+
+.ipad img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.screen img {
+    width: 100%;
+}
+
+
+/* query */
+@media (max-width:920px) {
+    .main_container {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        justify-content: center;
+    }
+    .left_container,
+    .right_container {
+        width: 100%;
+        /* background-color: lime; */
+    }
+    .right_container{
+        padding:10px 30px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .main_container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .left_container {
+        /* background-color: red; */
+        width: 80%;
+        /* padding: 10px 0 0 100px; */
+        justify-content: center;
+    }
+
+    .ipad {
+        width: 100%;
+        position: relative;
+        /* padding: 40px 0; */
+        left: 10%;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .screen {
+        top: 13%;
+        left: 8%;
+        position: absolute;
+    }
+
+    .ipad img {
+        /* margin-top: 10px; */
+        width: 100%;
+    }
+
+    .screen img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:576px) {
+    .main_container {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+        justify-content: center;
+    }
+
+    .left_container,
+    .right_container {
+        width: 100%;
+        /* background-color: lime; */
+    }
+
+    .left_container{
+        /* background-color: red; */
+        padding: 0 13px;
+        font-size: 15px;
+    }
+    .ipad {
+        left: 10%;
+    }
+}
