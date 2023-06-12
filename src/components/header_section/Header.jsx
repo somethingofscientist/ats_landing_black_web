@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link to='/'>
                     <div className={style.logo}>
                         {/* <img src={logo} alt="logo" /> */}
-                        <div className={style.company_name}>Rare Talent</div>
+                        <div className={style.company_name}>AI Luxury Commerce</div>
                     </div>
                 </Link>
 
