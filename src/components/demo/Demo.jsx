@@ -1,5 +1,5 @@
 
-import demo_vector from '../../Images/demo_vector.jpg'
+import demo_vector from '../../Images/rocket.png'
 import style from './demo.module.css';
 import Curve2 from '../curve2/Curve';
 import { Link } from 'react-router-dom';
