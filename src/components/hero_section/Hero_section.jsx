@@ -8,7 +8,8 @@ const Hero_section = (props) => {
         <>
             <div className={style.hero_section_main}>
                 <div className={style.hero_section_content}>
-                    Introducing the Future of Luxury Commerce powered by AI: Explore, Experience, and Elevate Your Style !
+                    Future of Luxury Commerce
+                     powered by AI: Explore, Experience, and Elevate Your Style !
                 </div>
                 <p className={style.hero_section_content2}>
                     {/* Are you ready to step into a whole new realm of experiencing luxury? Our groundbreaking solution is here to revolutionize the way you shop, engage, and connect with your favorite brands. */}

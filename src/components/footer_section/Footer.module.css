@@ -76,15 +76,16 @@ form input {
     border-radius: 28px;
     outline: none;
     margin-right: 40px;
-    border: 1px solid #F4D313;
+    border: 1px solid #6F1749;
 }
 
 .footer_subscribe_button {
     font-size: 14px;
     padding: 14px 22px;
     border-radius: 28px;
-    background-color: #F4D313;
-    border: none;
+    /* background-color: #6F1749; */
+
+    border: 1px solid white;
     color: white;
 }
 

@@ -32,7 +32,7 @@ const CustomerSlider = () => {
 
                         </div>
                         <div className={style.para}>
-                            "Since we started using RARE TALENT, our recruitment process has become more streamlined and efficient. The AI technology has helped us identify top talent quickly, and we've been able to make better hiring decisions. The tool's user-friendly interface and customizable features make it easy to use and tailor to our needs. I highly recommend RARE TALENT to any company looking to take their recruitment process to the next level."
+                            "Rare Commerce is a game-changer! The AI/AR integration enhances the shopping experience by allowing customers to try on products virtually. The personalized recommendations and seamless integration with my e-commerce platform have boosted sales and reduced returns. The support team has been exceptional throughout the implementation process. Highly recommended!"
                         </div>
 
                         <div className={style.flex_container}>
@@ -40,8 +40,8 @@ const CustomerSlider = () => {
                                 <img src={avatar1} alt="avatar1" />
                             </div>
                             <div className={style.name_work_container} >
-                                <div className={style.names}>Sunaina Gupta</div>
-                                <div className={style.profession}>HR Operations Manager</div>
+                                <div className={style.names}>Emily Johnson</div>
+                                <div className={style.profession}>SapphireWave Enterprises </div>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const CustomerSlider = () => {
 
                         </div>
                         <div className={style.para}>
-                            "RARE TALENT has made a significant impact on our recruitment process. The tool's AI capabilities have helped us find the right candidates for our business and save time on screening and interviewing. The platform's real-time reporting features have also helped us track and analyze our recruitment data more effectively. Overall, RARE TALENT has helped us make our recruitment process more efficient and effective."
+                            "Rare Commerce unleashes the power of AI/AR in retail! Real-time data insights and AR visualization have helped me make informed decisions. While the user interface could be more intuitive, the platform's features are impressive. The customer support team is responsive and provides valuable guidance. It's a must-have for businesses looking to gain a competitive edge."
                         </div>
 
                         <div className={style.flex_container}>
@@ -65,8 +65,8 @@ const CustomerSlider = () => {
                                 <img src={avatar2} alt="avatar2" />
                             </div>
                             <div className={style.name_work_container} >
-                                <div className={style.names}>Rahul Mehra</div>
-                                <div className={style.profession}>Recruitment Operations Analyst</div>
+                                <div className={style.names}>Michael Davis</div>
+                                <div className={style.profession}>QuantumTech Innovations</div>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,9 @@ const CustomerSlider = () => {
 
                         </div>
                         <div className={style.para}>
-                            "We've been using RARE TALENT for several months now, and it has exceeded our expectations. The tool's AI technology has helped us identify candidates with the right skills and experience, and its integration with other HR tools has made our recruitment process more efficient. The team behind RARE TALENT has been responsive and supportive, and their dedication to improving their product is impressive. We highly recommend RARE TALENT to any company looking to streamline their recruitment process and find the best talent for their team."
+                            "Rare Commerce elevates the shopping experience! The AI-powered recommendation engine and AR functionality have increased sales and fostered loyalty. Setting up was easy, thanks to the intuitive interface and excellent support. Highly recommended for retailers aiming to provide a cutting-edge shopping experience.
+
+"
                         </div>
 
                         <div className={style.flex_container}>
@@ -91,9 +93,9 @@ const CustomerSlider = () => {
                             </div>
                             <div className={style.name_work_container} >
 
-                                <div className={style.names}>Satyam Jha</div>
+                                <div className={style.names}> Olivia Thompson</div>
                                 <div className={style.profession}>
-                                    Talent Acquisition
+                                StellarEdge Solutions
                                 </div>
                             </div>
                         </div>
