@@ -13,13 +13,17 @@
 }
 
 .hero_section_content {
-    font-family: sans-serif !important;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    font-family: 'Inter';
     padding: 10px 20px;
+    font-family: 'DM Serif Display';
+    font-family: 'Cormorant Garamond', serif;
     width: 80%;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-weight: 400;
+    
 }
 
 .hero_section_content2 {
