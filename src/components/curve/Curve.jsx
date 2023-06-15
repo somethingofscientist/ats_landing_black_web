@@ -4,7 +4,7 @@ import style from "./Curve.module.css";
 import React, { useState } from "react";
 import videoStyle from "./Video.module.css";
 // import video1 from "../../Images/video/video_new.mp4";
-import video1 from "../../new_images/video.mp4";
+import video1 from "../../new_images/video_new.mp4";
 import video2 from "../../Images/video/three.mp4";
 import phone from "../../Images/phone_new.png";
 

@@ -2,7 +2,7 @@ import React from 'react'
 import phone1 from '../../Images/phone4.png'
 import phone2 from '../../Images/phone3.png'
 // import desktop1 from '../../Images/ss1.png'
-import desktop1 from '../../new_images/1.jpg'
+import desktop1 from '../../new_images/11.jpg'
 import style from './Job_description_section.module.css';
 import { Link } from 'react-router-dom';
 

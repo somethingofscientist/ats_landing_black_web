@@ -5,7 +5,7 @@ import style from './Flexible_approval.module.css';
 // import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 // import desktop1 from '../../Images/ss3.png';
-import desktop1 from '../../new_images/5.jpg';
+import desktop1 from '../../new_images/55.jpg';
 
 const Flexible_approval = () => {
     return (

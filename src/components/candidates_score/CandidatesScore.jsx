@@ -4,7 +4,7 @@ import ipad from '../../Images/ipad.png';
 import screen from '../../Images/screen_new.png';
 import { Link } from 'react-router-dom';
 // import score from '../../Images/score1.png'
-import score from '../../new_images/2.jpg'
+import score from '../../new_images/22.jpg'
 
 
 const CandidatesScore = () => {

@@ -5,7 +5,7 @@ import desktop1 from '../../Images/ss2.png';
 import style from './Summary.module.css';
 import { Link } from 'react-router-dom';
 // import Review from '../../Images/review.png'
-import Review from '../../new_images/3.png'
+import Review from '../../new_images/33.jpg'
 
 const Summary = () => {
     return (
