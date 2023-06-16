@@ -28,6 +28,7 @@ const CandidatesScore = () => {
                     </div>
                     <div className={style.para}>
                         <p className={style.icon_container}>
+                        
                             {/* <span>
                                 <i className="fa-sharp fa-regular fa-circle-check"
                                     style={{
@@ -46,6 +47,7 @@ const CandidatesScore = () => {
                             </span>
                         </p>
                     </div>
+
                     {/* <div className={style.para}>
                         <p className={style.icon_container}>
                             <span>
@@ -94,6 +96,7 @@ const CandidatesScore = () => {
                             </span>
                         </p>
                     </div> */}
+
                     {/* <div className={style.para}>
                         <p className={style.icon_container}>
                             <span>
@@ -131,9 +134,8 @@ const CandidatesScore = () => {
 
                 {/* right container */}
                 <div className={style.right_container}>
-                    <img src={phone} alt="" />
                     <div className={style.ipad}>
-                        <video src={phone_video} loop muted autoPlay controls/>
+                        <video src={phone_video} loop muted autoPlay />
                     </div>
                 </div>
             </div>

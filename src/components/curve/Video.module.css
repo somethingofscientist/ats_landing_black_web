@@ -124,7 +124,7 @@
 
     /* Style the video player */
     .mobile_video_container video {
-        border-radius: 45px;
+        border-radius: 4px;
         width: 65%;
         height: 100%;
         margin-top: -18px;
