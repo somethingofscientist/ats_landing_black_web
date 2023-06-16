@@ -23,7 +23,7 @@ const Home = () => {
             <Summary />
             <Workflow />
             <Flexible_approval />
-            <CustomerSlider />
+            {/* <CustomerSlider /> */}
             <Footer />
         </>
     )
