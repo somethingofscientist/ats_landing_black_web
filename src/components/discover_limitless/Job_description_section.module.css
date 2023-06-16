@@ -95,6 +95,11 @@
     width: 100%;
     border-radius: 10px;
 }
+.ipad video {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
 
 .desktop1 {
     top: 13%;

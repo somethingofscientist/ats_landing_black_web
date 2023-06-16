@@ -4,17 +4,15 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
-    background: linear-gradient(180deg, rgba(49, 104, 236, 0.19) 0%,
-            rgba(49, 104, 236, 0.06) 100%);
                 /* new change AG */
     background: linear-gradient(#6F1749, #CB5E9C,#CB5E9C);
 }
 
 .left_container {
     /* background-color: red; */
-    width: 50%;
+    width: 70%;
     padding-left: 10%;
+    /* border: 1px solid lime; */
 }
 
 .heading {
@@ -47,40 +45,27 @@
 }
 
 .right_container {
+    width: 30%;
     display: flex;
     position: relative;
-    overflow: hidden;
-    padding: 40px 0px;
-    /* border: 1px solid grey; */
-    /* width: 5 0%; */
-    padding-left: 40px;
-    /* background-color: red; */
+    background-color: black;
 }
-
+.right_container img{
+    width: 100%;
+    z-index: 10;
+}
 .ipad {
-    width: 100%;
-    position: relative;
-    /* padding: 40px 0; */
-    left: 10%;
-    border-radius: 15px;
-    /* color: white; */
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
+    position:absolute;
+    border-radius: 20px;
+    right: 21%;
+    top: 2%;
+    z-index: 0;
 }
+.ipad video{
+    width: 106%;
 
-.screen {
-    top: 13%;
-    left: 8%;
-    position: absolute;
-}
-
-.ipad img {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.screen img {
-    width: 100%;
+    background-color: black;
+    border-radius: 30px;
 }
 
 
